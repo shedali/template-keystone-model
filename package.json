@@ -1,0 +1,24 @@
+{
+  "name": "keystone-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc-watch src/index.ts",
+    "build": "tsup src/index.ts --format cjs, esm --dts",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "Franz Sittampalam",
+  "license": "ISC",
+  "devDependencies": {
+    "esno": "*",
+    "mobx-keystone": "^1.2.0",
+    "tsc-watch": "^6.0.0",
+    "tsup": "*",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.4"
+  }
+}

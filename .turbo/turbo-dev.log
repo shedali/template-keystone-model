@@ -1,0 +1,8 @@
+
+> typescript-starter@1.0.0 dev /Users/franz/dev/Empire/MathEmpire/libs/keystone-model
+> tsc-watch src/index.ts
+
+c11:02:45 PM - Starting compilation in watch mode...
+
+
+11:02:47 PM -[32m Found 0 errors. Watching for file changes.[39m
