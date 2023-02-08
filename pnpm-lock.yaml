@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   esno: '*'
+  mobx: ^6.7.0
   mobx-keystone: ^1.2.0
   npm-run-all: ^4.1.5
   tsc-watch: ^6.0.0
@@ -11,7 +12,8 @@ specifiers:
 
 devDependencies:
   esno: 0.16.3
-  mobx-keystone: 1.2.0
+  mobx: 6.7.0
+  mobx-keystone: 1.2.0_mobx@6.7.0
   npm-run-all: 4.1.5
   tsc-watch: 6.0.0_typescript@4.9.5
   tsup: 6.6.0_typescript@4.9.5
@@ -1600,15 +1602,20 @@ packages:
       ufo: 1.0.1
     dev: true
 
-  /mobx-keystone/1.2.0:
+  /mobx-keystone/1.2.0_mobx@6.7.0:
     resolution: {integrity: sha512-K5Gw2zJ+l/n19R6fxXtDmBukiv5RkIzSD26cw20yV6JhM2WlmlN7c0R4fPVDgHqIxAhMho9CM011JIBRN2K2qQ==}
     peerDependencies:
       mobx: ^6.0.0 || ^5.0.0 || ^4.0.0
     dependencies:
       fast-deep-equal: 3.1.3
+      mobx: 6.7.0
       nanoid: 3.3.4
       ts-toolbelt: 9.6.0
       tslib: 2.5.0
+    dev: true
+
+  /mobx/6.7.0:
+    resolution: {integrity: sha512-1kBLBdSNG2bA522HQdbsTvwAwYf9hq9FWxmlhX7wTsJUAI54907J+ozfGW+LoYUo06vjit748g6QH1AAGLNebw==}
     dev: true
 
   /ms/2.1.2:
