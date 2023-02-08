@@ -6,7 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "tsc-watch src/index.ts",
+    "dev": "tsc-watch -p tsconfig.json --onSuccess 'run-p build test'",
     "build": "tsup src/index.ts --format cjs, esm --dts",
     "test": "vitest run"
   },
